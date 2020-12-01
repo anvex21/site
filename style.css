@@ -62,8 +62,6 @@ button:hover {
 body {
   margin: 0;
   padding: 0;
-  background: url(image/background.jpg) no-repeat;
-  background-size: cover;
 }
 .box {
   width: 450px;
@@ -109,4 +107,13 @@ ul {
 }
 .box li a:hover {
   color: #b9b9b9;
+}
+
+.fa {
+  padding: 20px 2px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
