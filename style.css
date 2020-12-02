@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
+  background-color: #24252a; /*Премести го в боди тага долу*/
 }
-
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
 li,
 a,
 button {
@@ -17,10 +22,15 @@ button {
 }
 
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  background-color: #222227;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
 }
 
 .logo {
@@ -29,6 +39,7 @@ header {
 
 .nav_links {
   list-style: none;
+  background-color: #222227;
 }
 
 .nav_links li {
@@ -36,10 +47,12 @@ header {
   padding: 0px 25px;
   position: relative;
   right: 100px;
+  background-color: #222227;
 }
 
 .nav_links li a {
   transition: all 0.3s ease 0s;
+  background-color: #222227;
 }
 
 .nav_links li a:hover {
@@ -68,7 +81,7 @@ body {
   padding: 40px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   color: white;
   font-family: "Texturina", sans-serif;
 }
